@@ -1,12 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React from 'react';
+import CoinsStack from './src/components/CoinsStack';
 
 import {  NavigationContainer } from '@react-navigation/native'
 const App = () => {
@@ -14,7 +7,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-
+      <CoinsStack/>
     </NavigationContainer>
   );
 };
